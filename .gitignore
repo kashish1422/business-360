@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local data
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and local databases
+logs/
+*.log
+*.sqlite
+*.db
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Power BI temporary or local cache files
+**/~$*
